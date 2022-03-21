@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DEV Evolution - Desafio</title>
+
+    <link rel="icon" type="image/png" href="https://www.ixcsoft.com.br/wp-content/themes/ixc/images/favicon-196x196.png"
+        sizes="196x196">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+    <!--=======================================================================================================================-->
+    <div class="logo">
+
+        <img src="images/logo_dev.png" width="400" height="200">
+    </div>
+
+    <!--=======================================================================================================================-->
+    <div class="container" id="welcome_block">
+
+        <div id="welcome_text">
+
+            <h1 class="titulo">BEM VINDO!</h1>
+            <p class="descricao">
+                Você enfrentará um desafio sobre conhecimento geral! <strong>Está preparado?</strong><br>
+                Este quiz terá 5 perguntas, cujas quais darão 100 pontos cada.<br>
+                Você possuí 30 segundos para responder o quiz. Seja rápido, o tempo conta para sua pontuação!.<br>
+                <strong>Vamos começar?</strong>
+            </p>
+        </div>
+        <br><br><br>
+        <div class="descricao">Insira seu nome: </div><br>
+        <input type="text" class="descricao" id="name"><br>
+        <input type="button" class="button" value="INICIAR" id="start_button">
+    </div>
+
+    <!--=======================================================================================================================-->
+    <div class="container" id="quiz_block">
+        <div class="timer" id="safeTimerDisplay"></div>
+        <div class="descricao" id="quiz_text"></div>
+
+        <input type="button" class="button" value="RESPONDER" id="submit_button">
+    </div>
+
+    <!--=======================================================================================================================-->
+    <div class="container" id="results_block">
+
+        <h1 class="titulo">RESULTADO:</h1>
+        <div class="descricao" id="results_text"></div>
+
+        <input type="button" class="button" value="VER RANKING" id="register_button">
+    </div>
+
+    <!--=======================================================================================================================-->
+    <div class="container" id="ranking_block">
+
+        <h1 class="titulo">RANKING:</h1>
+        <div class="descricao" id="ranking_text"></div>
+
+        <input type="button" class="button" value="JOGAR NOVAMENTE" id="repeat_button">
+    </div>
+
+    <!--=======================================================================================================================-->
+    <footer>
+        <div class="foot">
+
+            <h1><img src="https://www.ixcsoft.com.br/wp-content/themes/ixc/images/logo.png" width="124,4"
+                    height="35,56666666666667"></h1>
+            <!--3732 x 1067-->
+        </div>
+    </footer>
+
+    <!--=======================================================================================================================-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

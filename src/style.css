@@ -1,0 +1,96 @@
+body{
+    background: #1a1c4b;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo{
+    max-height:100px; 
+
+    text-align: center;
+}
+
+.timer{
+    color: #1a1c4b;
+
+    width: auto;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 500px;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    
+    text-align: center;
+    font: italic bold 25px 'Courier New';
+}
+
+.container{
+    background: white;
+    box-shadow: 3px 3px 10px #009dd9;
+
+    width: auto;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    max-width: 1000px;
+    padding: 50px;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.titulo{
+    color: #1a1c4b;
+
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+    font: bold 20px 'Courier New';
+}
+
+.descricao{
+    color: #1a1c4b;
+
+    margin-bottom: 0px;
+
+    font: normal 18px 'Courier New';
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.option{
+    background: white;
+    color: #1a1c4b;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
+
+    width: auto;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    
+    text-align: left;
+}
+
+.button { 
+    background-color: #1a1c4b;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 50px;
+    
+    cursor: pointer;
+
+    font: bold 18px 'Courier New';
+}
+
+.foot{
+    margin-top: 50px;
+
+    text-align: center;
+}
